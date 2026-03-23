@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
+import { HashRouter, Routes, Route, Navigate } from 'react-router-dom'
 import LoginPage from './pages/LoginPage'
 import HomePage from './pages/HomePage'
 import MonitorPage from './pages/MonitorPage'
@@ -6,7 +6,7 @@ import './index.css'
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Navigate to="/login" replace />} />
         <Route path="/login" element={<LoginPage />} />
@@ -15,6 +15,6 @@ export default function App() {
         <Route path="/maintain" element={<HomePage />} />
         <Route path="/profile" element={<HomePage />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
