@@ -133,7 +133,7 @@ function StationCard({ station }) {
 
 export default function MonitorPage() {
   return (
-    <div className="flex flex-col h-full bg-[#F5F5F5]">
+    <div className="flex flex-col bg-[#F5F5F5]" style={{ height: '812px' }}>
 
       {/* Blue gradient header background */}
       <div

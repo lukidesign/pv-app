@@ -13,7 +13,7 @@ const tabs = ['Day', 'Month', 'Year', 'Lifetime']
 
 export default function HomePage() {
   return (
-    <div className="flex flex-col h-full bg-[#F5F5F5]">
+    <div className="flex flex-col bg-[#F5F5F5]" style={{ height: '812px' }}>
 
       {/* Blue gradient header (fixed background) */}
       <div

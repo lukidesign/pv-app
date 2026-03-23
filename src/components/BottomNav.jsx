@@ -52,7 +52,7 @@ export default function BottomNav() {
   const { pathname } = useLocation()
 
   return (
-    <div className="flex-shrink-0 px-4 pb-4 pt-2 bg-white">
+    <div className="flex-shrink-0 px-4 pb-4 pt-2 bg-white relative z-20" style={{ backgroundColor: '#ffffff' }}>
       <div
         className="rounded-[100px] bg-white"
         style={{ boxShadow: '4px 8px 8px 0px rgba(0,88,169,0.1)' }}
