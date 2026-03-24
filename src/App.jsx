@@ -3,6 +3,7 @@ import LoginPage from './pages/LoginPage'
 import HomePage from './pages/HomePage'
 import MonitorPage from './pages/MonitorPage'
 import ProfilePage from './pages/ProfilePage'
+import MaintainPage from './pages/MaintainPage'
 import './index.css'
 
 export default function App() {
@@ -13,7 +14,7 @@ export default function App() {
         <Route path="/login" element={<LoginPage />} />
         <Route path="/home" element={<HomePage />} />
         <Route path="/monitor" element={<MonitorPage />} />
-        <Route path="/maintain" element={<HomePage />} />
+        <Route path="/maintain" element={<MaintainPage />} />
         <Route path="/profile" element={<ProfilePage />} />
       </Routes>
     </HashRouter>
